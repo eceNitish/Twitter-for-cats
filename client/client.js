@@ -9,6 +9,7 @@ loadingElement.style.display = '';
 //console.log(form.name);
 
 listAllMews();
+loadingElement.style.display = 'none';
 
 form.addEventListener("submit", (event) => {
     event.preventDefault();
